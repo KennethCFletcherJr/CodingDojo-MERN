@@ -13,14 +13,14 @@ code {
 }
 
 
- /* .App {
-   text-align: center;
-   margin: 0px auto;
-   /* text-decoration: none; */
- }
+/* .App {
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: none; 
+  }*/
 
- .App ul {
+.App ul {
   list-style-type: none;
   text-align: center;
   margin: 0px auto;
- } */
+}
