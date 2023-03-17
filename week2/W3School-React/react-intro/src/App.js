@@ -6,7 +6,7 @@ function App() {
   //Use the function that you imported in App.js
   return (
     <div className="App">
-    <Hello/>
+      <Hello />
     </div>
   );
 }

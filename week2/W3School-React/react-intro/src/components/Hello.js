@@ -1,12 +1,12 @@
 import React from 'react';
 
-const  Hello = () => {
+const Hello = () => {
 
     return (
-        
+
         <h1>Hello World!</h1>
-        
-        );
+
+    );
 }
 
 //How do I define ReactDOM?
