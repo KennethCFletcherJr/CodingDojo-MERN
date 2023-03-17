@@ -10,7 +10,6 @@ const PersonCard = (props) => {
             <p>Age: {age}</p>
             <p>Hair Color: {hairColor}</p>
         </div>
-
     )
 }
 

@@ -1,24 +1,21 @@
 import './App.css';
 import PersonCard from './components/PersonCard';
-import AddOneYear from './components/AddOneYear';
+// import AddOneYear from './components/AddOneYear';
 
 function App() {
   return (
     <div className="App">
-// What format is this in now? Is it supposed to be an array of objects? If so, why?
-      <PersonCard
+      {/* What format is this in now? Is it supposed to be an array of objects? If so, why?
+  */}   <PersonCard
         firstName={"Darius"}
         lastName={"Rucker"}
         age={56}
         hairColor={"none"}
-        />
-      <AddOneYear 
-      button onClick={handleClick}
       />
 
       <PersonCard
         firstName={"Oprah"}
-        lastName={"Winfrey"}
+
         age={69}
         hairColor={"brown"}
       />
