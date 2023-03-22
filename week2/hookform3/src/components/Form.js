@@ -79,7 +79,7 @@ const Form = (props) => {
                         onChange={(e) => setConfirmPass(e.target.value)} />
                 </div>
 
-                <input id="createUser" style={{ }} type="submit" value="Create User" />
+                <input id="createUser" style={{}} type="submit" value="Create User" />
             </form>
 
             <div className="formDataDivStyle">

@@ -1,7 +1,8 @@
-/* .App {
+.App {
   text-align: center;
 }
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -55,12 +56,10 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  box-sizing:border-box
-
+  box-sizing: border-box
 }
 
-  #createUser {
-    text-align: center;
-    margin: 0px auto;
-  }
-
+#createUser {
+  text-align: center;
+  margin: 20px auto;
+}
