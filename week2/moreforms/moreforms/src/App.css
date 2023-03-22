@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.formDataDivStyle {
+  text-align: left;
+  width: 350px;
+  margin: auto;
+}
+
+.inputDataDivStyle {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid darkgrey;
+  padding: 5px 35px;
+  margin: 0px;
+  width: 350px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box
+}
+
+#createUser {
+  text-align: center;
+  margin: 20px auto;
+}

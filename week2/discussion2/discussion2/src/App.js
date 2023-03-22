@@ -1,5 +1,5 @@
 import './App.css';
-import User from './components/User.js;'
+import User from './components/User';
 
 function App() {
   return (
@@ -13,11 +13,9 @@ function App() {
 
       />
 
-    </div>
 
+    </div>
   );
 }
+
 export default App;
-
-
-
