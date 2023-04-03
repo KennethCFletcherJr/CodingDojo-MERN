@@ -20,7 +20,7 @@ function App() {
 
   useEffect( () => {
 
-    axios.get("https://pokeapi.co/api/v2/pokemon")
+    axios.get("https://pokeapi.co/api/v2/pokemon?limit=807&offset=0")
     //Check console log for path
 
       .then((res) => {setList(res.data.results); console.log(res.data.results)})
