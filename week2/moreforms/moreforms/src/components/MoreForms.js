@@ -60,6 +60,12 @@ const MoreForms = (props) => {
     // The e - mail is less than 5 characters, say the field must be at least 5 characters.
     // The passwords must match and be at least 8 characters.
 
+    const changeHandler = (e) => {
+        setFirstName(e.target.value)
+    }
+
+    
+
     return (
         <div>
             <form onSubmit={createUser}
@@ -70,7 +76,7 @@ const MoreForms = (props) => {
                     <input type="text"
                         name="firstname"
                         value={firstname}
-                        onChange={(e) => setFirstName(e.target.value)} />
+                        onChange={ changeHandler } />
                 </div>
 
                 {
